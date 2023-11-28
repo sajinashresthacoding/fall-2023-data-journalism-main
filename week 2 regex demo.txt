@@ -29,7 +29,7 @@ Lt. Patrician Grace
 Detective Susan Treeble
 Officer Cantwell Brady-Stevens
 regex = ^(Det|Lt|Officer|Detective|Police Officer)\.? ([\.\- \w]*)
-
+regex = (Det.|Police Officer|Officer |Lt.|Detective)\s([\w \.\-]+)
 
 
 MOCK TABLE
